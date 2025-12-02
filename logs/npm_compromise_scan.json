@@ -1,0 +1,7 @@
+{
+  "timestamp": "2025-12-02T09:37:49Z",
+  "host": "dit-211689",
+  "findings": [
+    {"scope":"project","user_or_owner":"v.peliukh","location":"/Users/v.peliukh/test_compromise_env/node_modules/02-echo/package.json","package":"02-echo","found_version":"0.0.7","indicator_version":"0.0.7","match":true,"type":"node_modules"}    {"scope":"lockfile","user_or_owner":"v.peliukh","location":"/Users/v.peliukh/test_compromise_env/package-lock.json","package":"02-echo","found_version":"lockfile:0.0.7","indicator_version":"0.0.7","match":true,"type":"package-lock.json"}    {"scope":"lockfile","user_or_owner":"v.peliukh","location":"/Users/v.peliukh/test_compromise_env/yarn.lock","package":"02-echo","found_version":"lockref:0.0.7","indicator_version":"0.0.7","match":true,"type":"yarn.lock"}
+  ]
+}

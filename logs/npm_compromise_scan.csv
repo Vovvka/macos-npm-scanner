@@ -1,0 +1,4 @@
+timestamp,host,scope,user_or_owner,location,package,found_version,indicator_version,match,type
+2025-12-02T09:37:49Z,dit-211689,project,v.peliukh,/Users/v.peliukh/test_compromise_env/node_modules/02-echo/package.json,02-echo,0.0.7,0.0.7,true,node_modules
+2025-12-02T09:37:49Z,dit-211689,lockfile,v.peliukh,/Users/v.peliukh/test_compromise_env/package-lock.json,02-echo,lockfile:0.0.7,0.0.7,true,package-lock.json
+2025-12-02T09:37:49Z,dit-211689,lockfile,v.peliukh,/Users/v.peliukh/test_compromise_env/yarn.lock,02-echo,lockref:0.0.7,0.0.7,true,yarn.lock

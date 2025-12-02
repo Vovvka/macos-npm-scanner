@@ -117,7 +117,7 @@ append_row() {
 # Lightweight JSON field readers (no jq)
 read_pkgjson_field() {
   # $1=path $2=fieldname ("name" or "version")
-  awk -v fld="\"$2\"" -F'"' '$2==fld{print $4; exit}' "$1" 2>/dev/null
+  awk -v fld="$2" -F'"' '$2==fld{print $4; exit}' "$1" 2>/dev/null
 }
 read_pkgjson_name()   { read_pkgjson_field "$1" "name"; }
 read_pkgjson_version(){ read_pkgjson_field "$1" "version"; }
@@ -223,4 +223,4 @@ echo "CSV:  $CSV"
 echo "JSON: $JSON"
 echo "Scan complete."
 
-exit $FOUND
+if [ -f "$CSV" ] && [ $(wc -l < "$CSV") -gt 1 ]; then exit 1; else exit 0; fi
