@@ -2,6 +2,7 @@
 # NPM Compromise Scanner (macOS)
 # Finds compromised packages/versions globally & in projects.
 # Output: /Library/Logs/npm_compromise_scan.csv and .json
+# 
 
 set -u  # treat unset vars as error
 # set -o pipefail  # optional: uncomment if you prefer failure-on-pipeline
