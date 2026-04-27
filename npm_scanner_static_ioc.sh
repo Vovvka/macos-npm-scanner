@@ -18,24 +18,22 @@ DATE_ISO="$(date -u +"%Y-%m-%dT%H:%M:%SZ")"
 
 # IoC list: "name|bad_version"
 IOC_LIST=$(cat <<'EOF'
-backslash|0.2.1
-chalk-template|1.1.1
-supports-hyperlinks|4.1.1
-has-ansi|6.0.1
-simple-swizzle|0.2.3
-color-string|2.1.1
-error-ex|1.3.3
-color-name|2.0.1
-is-arrayish|0.3.3
-slice-ansi|7.1.1
-color-convert|3.1.1
-wrap-ansi|9.0.1
-ansi-regex|6.2.1
-supports-color|10.2.1
-strip-ansi|7.1.1
-chalk|5.6.1
-debug|4.4.2
-ansi-styles|6.2.2
+@automagik/genie|4.260421.33
+@automagik/genie|4.260421.34
+@automagik/genie|4.260421.35
+@automagik/genie|4.260421.36
+@automagik/genie|4.260421.37
+@automagik/genie|4.260421.38
+@automagik/genie|4.260421.39
+pgserve|1.1.11
+pgserve|1.1.12
+pgserve|1.1.13
+@fairwords/websocket|1.0.38
+@fairwords/websocket|1.0.39
+@fairwords/loopback-connector-es|1.4.3
+@fairwords/loopback-connector-es|1.4.4
+@openwebconcept/design-tokens|1.0.3
+@openwebconcept/theme-owc|1.0.3
 EOF
 )
 
